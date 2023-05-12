@@ -46,7 +46,10 @@
 
 ## :dart: About
 
-Describe your project
+<div align="center">
+	<img src="https://github.com/FirerPlayer/hexagonal-arch-go/blob/master/hex-arch.png" alt="Project architecture" />
+	
+</div>
 
 ## :sparkles: Features
 
