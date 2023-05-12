@@ -6,8 +6,8 @@ import (
 )
 
 type CreateProductInputDto struct {
-	Name  string
-	Price float64
+	Name  string  `json:"name"`
+	Price float64 `json:"price"`
 }
 
 type CreateProductOutputDto struct {
@@ -18,6 +18,12 @@ type CreateProductOutputDto struct {
 
 type CreateProductUseCase struct {
 	ProductRepository repository.ProductRepository
+}
+
+func NewCreateProductUseCase(productRepository repository.ProductRepository) *CreateProductUseCase {
+	return &CreateProductUseCase{
+		ProductRepository: productRepository,
+	}
 }
 
 func (uc *CreateProductUseCase) Execute(input CreateProductInputDto) (*CreateProductOutputDto, error) {
