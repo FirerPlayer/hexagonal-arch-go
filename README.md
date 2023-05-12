@@ -51,13 +51,18 @@ Describe your project
 ## :sparkles: Features
 
 :heavy_check_mark: Menssaging with Kafka\
-:heavy_check_mark: Hexagonal architecture;
+:heavy_check_mark: Hexagonal architecture\
+:heavy_check_mark: MySQL\
+:heavy_check_mark: POO with Go
 
 ## :rocket: Technologies
 
 The following tools were used in this project:
 
 - [Go](https://golang.org)
+- [Kafka](https://kafka.apache.org/)
+- [Docker](https://www.docker.com/)
+- [Docker Compose](https://docs.docker.com/compose/)
 
 ## :white_check_mark: Requirements
 
@@ -72,10 +77,8 @@ $ git clone https://github.com/FirerPlayer/hexagonal-arch-go
 # Access
 $ cd hexagonal-arch-go
 
-# Run the project
-$ go run main.go
-
-# The server will initialize in the <http://localhost:3000>
+# Run the compose
+$ docker-compose up -d
 ```
 
 ## :memo: License
