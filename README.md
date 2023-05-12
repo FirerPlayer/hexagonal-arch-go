@@ -46,6 +46,18 @@
 
 ## :dart: About
 
+Sure! Here's a simplified version in English:
+
+The Go project with hexagonal architecture involves HTTP requests and messaging to create a modern, scalable application. The hexagonal architecture separates business rules from technical implementation, allowing greater flexibility and easier code maintenance.
+
+In this project, external adapters receive HTTP requests and pass the data to the application layer for business rules to be applied. The external adapter then formats the data and returns it as an HTTP response.
+
+Additionally, messaging is used for asynchronous communication between different parts of the system. This allows for background task processing and efficient information exchange between different microservices.
+
+Using Go for implementation offers high-performance, energy-efficient programming with advanced concurrency and parallelism features, making it ideal for high-load scenarios. The hexagonal architecture and messaging also make the system modular and scalable, making future maintenance and expansion easier.
+
+The following is the structure of the project:
+
 <div align="center">
 	<img src="https://github.com/FirerPlayer/hexagonal-arch-go/blob/master/hex-arch.png" alt="Project architecture" />
 	
